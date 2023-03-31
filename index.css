@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color:springgreen;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: black;
+    padding-bottom: 30px;
+}
+#cuarta{
+    background-color: beige;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: initial;
+    font-size: 1.10em;
+}
+header .logo{
+    max-width: 1400px;
+    margin: auto;
+    padding: 27px 35px;
+    font-weight: bold;
+    color: crimson;
+    font-size: 1.50em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+header a:hover{
+    color: red;
+}
+h1{
+    color: white;
+}
+.color{
+    color: yellow;
+}
+#tercera{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+#tercera .ter{
+    padding: 100px 0px;
+}
+#tercer p{
+    display: none;
+
+}
+
+.tercer .carta{
+    font-family: cursive;
+}
+
+.textos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+}
+
+#tercera h2{
+    font-size: 2.5em;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#tercera .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-color: azure;
+}
+
+.carta:nth-child(2){
+    background-color: blanchedalmond;
+
+}
+
+
+.carta:nth-child(3){
+    background-color: aquamarine;
+
+
+}
+#segundo .seg{
+    text-align: center;
+    padding: 50px 12px;
+
+}
+#nuevo{
+    text-align: center;
+    padding: 80px 12px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url(primera.png);
+
+}
+#nuevo p{
+    color: white;
+    font-size: 1.5em;
+}
+.sapo {
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.dodo{
+    text-align: center;
+}
+.final_todo{
+    background-color:grey;
+}
+#caracteristicas h2{
+    text-align: center;
+    font-size: 2em;
+
+}
+#caracteristicas ul{
+    align-items: flex-end;
+    background-color: grey;
+}   
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#caracteristicas {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+footer .link{
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(30,30,30);
+
+}
+
+#solo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(30,30,30);
+  
+}
+
+#solo a{
+    color: white;
+    font-family: cursive;
+    padding-left: 20px;
+}
+#segundo .seg{
+    text-align: center;
+    padding: 80px 12px;
+}
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0px;
+        padding-right: 200px;
+    }
+    #segundo .seg{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #segundo .textos{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #segundo .imagenes{
+        background-image: url(segunda.png);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+}
